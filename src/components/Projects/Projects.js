@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import leaf from "../../Assets/Projects/comma.png";
 import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import editor from "../../Assets/Projects/cc.png";
+import chatify from "../../Assets/Projects/my.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import bitsOfCode from "../../Assets/Projects/myl.png";
 
 function Projects() {
   return (
@@ -25,9 +25,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              title="My.Organics"
+              description="Mobile app for MyOrganics. The tech stack is react native node js and wordpress rest api.  My.Organics is an organic, sustainable and cruelty free haircare and styling brand. The range of exclusive products is made from certified ingredients that are grown using organic and bio-dynamic farming techniques."
+              link="https://apps.apple.com/be/app/my-organics/id1552454809"
             />
           </Col>
 
@@ -35,9 +35,11 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="Comma - Find Barbers"
+              description="Mobile app for Comma - Find Barbers. The tech stack is react native and mern stack. Comma Find barbers is a mobile platform for customers to find the barbershops and independent barbers near you and manage bookings online.
+              Comma Find Barbers booking app is a mobile platform for barbers and clients to enhance Customer experience.
+               Explore and book best barbers near you."
+              link="https://apps.apple.com/tt/app/comma-find-barbers/id1601995010"
             />
           </Col>
 
@@ -45,9 +47,9 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              title="Comma Barbers Booking App"
+              description="Comma barbers booking app is a mobile platform for barbers and customers to manage bookings online. It also connects barbershops and independent barbers to work together.  Comma barbers booking app is a mobile platform for barbers and clients to enhance barbershop experience.     An all-in-one platform to power your barbershop operations.   Take more control of operations, increase revenue, and delight your    customers with a single, easy-to-use platform."
+              link="https://apps.apple.com/tt/app/comma-barbers-booking-app/id1601934663"
             />
           </Col>
 
@@ -55,32 +57,15 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="Nine Link - Bio in one Link "
+              description="Mobile app for Nine Link - Bio in one Link. The tech stack is react native, react-native-web and mern stack. Build and manage your website, shop, restaurant, gym, clinic or online store from anywhere like a link tree. Tell your unique story and build your brand with nine link.  Generate eye-catching smart links and landing pages to fans.   Share all links at once in a beautiful way and track its performance.  No desktop, design or website building skills are required."
+              link="https://apps.apple.com/tt/app/nine-link-bio-in-one-link/id1607693450"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
-            />
-          </Col>
+          
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-            />
-          </Col>
+          
         </Row>
       </Container>
     </Container>

@@ -5,24 +5,25 @@ function Particle() {
   return (
     <Particles
       params={{
+        
         particles: {
           number: {
-            value: 160,
+            value: 300,
             density: {
               enable: true,
-              value_area: 1500,
+              value_area: 2500,
             },
           },
           line_linked: {
-            enable: false,
-            opacity: 0.03,
+            enable: true,
+            opacity: 0.13,
           },
           move: {
             direction: "right",
-            speed: 0.05,
+            speed: 0.5,
           },
           size: {
-            value: 1,
+            value: 5,
           },
           opacity: {
             anim: {
@@ -32,6 +33,7 @@ function Particle() {
             },
           },
         },
+        
         interactivity: {
           events: {
             onclick: {
@@ -41,7 +43,7 @@ function Particle() {
           },
           modes: {
             push: {
-              particles_nb: 1,
+              particles_nb:3,
             },
           },
         },
